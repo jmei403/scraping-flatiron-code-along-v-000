@@ -17,7 +17,7 @@ class Scraper
   end
 
   def get_courses
-    doc.css(".post")
+    get_page.css(".post")
   end
 
   def print_courses
